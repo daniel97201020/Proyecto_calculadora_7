@@ -22,22 +22,38 @@
   http://www.arduino.cc/en/Tutorial/Blink
 */
 
-// evitar las variables globales a toda causa, o informar a todos los usuarions los nombres de las variables globales, para no tener problemas de compatibilidad.
-
-//encapsular todo el el codigo en funciones, las cuales permitan asignar trabajo y aislar el codigo de sus compañeos con el sullo.
+// ubicacion de prototipos de function
+long suma(int,int);
+long resta (int,int);
+long multiplicacion(int,int);
+long division(int,int);
 
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
 
-  delay(1000);// wait for a second
+
+
+}
+
+long suma(int a,int b){
+  // variables de entrada , son dos int que pueden tener un valor signed o unsigned
+  //variable de salida un long, que puede ser signed o unsigned
+  //operacion se tiene que realizar la suma de las variables de entrada, y regresar el resultado al salir de la funcion
+
+
+}
+long resta (int a,int b){
+
+}
+long multiplicacion(int a,int b){
+
+}
+long division(int a,int b){
+
 }
