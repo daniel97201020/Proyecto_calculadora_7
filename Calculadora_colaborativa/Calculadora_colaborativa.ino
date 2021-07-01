@@ -43,6 +43,9 @@ void loop() {
 
 long suma(int a,int b){
   // variables de entrada , son dos int que pueden tener un valor signed o unsigned
+  long c = 0; 
+  c = a + b;
+  return c;
   //variable de salida un long, que puede ser signed o unsigned
   //operacion se tiene que realizar la suma de las variables de entrada, y regresar el resultado al salir de la funcion
 
